@@ -1,23 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap-utilities.rtl.min.css.map">
     <meta name="viewport" content="width=500, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/homepage.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Exercise 1</title>
+    <title>Cuizine 1</title>
 </head>
 <body>
-    
-<header>
-    <img src="../digitous-html-cuisine/templates/homepage/homepage.png">
+
+    <!-- <img src="./img/logo_square_black.png">
+                <img src="./img/logo_square_white.png"> -->
+
+    <header>        
+        <nav class="navbar navbar-expand-lg navbar-dark border-bottom dark">
+
+            <div class="container-fluid">
+
+              <a class="navbar-brand" href="#">Cui'zine</a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <div class="" id="navbarNavAltMarkup">
+
+                <div class="navbar-nav">
+
+                  <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                  <a class="nav-link" href="#">Equipe</a>
+                  <a class="nav-link" href="#">Blog</a>
+                  <a class="nav-link disabled">Contact</a>
+
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <div class="header-content">
+            <div class="row">
+              <div class="d-flex flex-column justify-content-center align-items-center mt-5">
+                <img class="h-25"  src="./img/logo_square_white.png">
+                <h1 class="text-white">Cui'zine</h1>
+                <h2 class="text-white">le mag cuisine</h2>
+              </div>
+            </div> 
+          </div>
 </header>
 
+  <h2 class="h-2">Derniers articles</h2>
+
+<!-- Column 1 -->
+  <div class="d-flex flex-column bd-highlight mb-3">
+    <div class="p-2 ms-5 col-9 bd-highlight">
+    
+
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="./img/articles/suzette/suzette-small.jpg" alt="">
+        </div>
+
+        <div class="flex-grow-1 ms-3"><h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
+          La franchise "Chez Suzette* qui fait un carton chez es betons ouvre son premier restaurant à Paris
+          dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrés, salés au froment ou sarrazin!
+        </div>
+      </div>
+  
+    </div>
+    <!-- Column 2 -->
+    <div class="p-2 ms-5 col-9 bd-highlight">
+    
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="./img/articles/metro/metro-small.jpg" alt="">
+        </div>
+
+        <div class="flex-grow-1 ms-3"><h3>Le Métro dessert</h3>
+          <p>Germain est ferrovipathe (ndlr: fan de train). son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux
+          passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument, mais qu'en est-il dy aller
+          pour manger ? Clèmentine entre en gare et nous donne son avis</p> 
+        </div>
+      </div>
+    
+    </div>
+    <!-- Column 3 -->
+    <div class="p-2 ms-5 col-9 bd-highlight">
+
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="./img/articles/vitaly/vitaly-small.jpg" alt="">
+        </div>
+        <div class="flex-grow-1 ms-3"><h3>vitaly, le végean italien</h3>
+          <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'italie à portée des
+          herbivores. Cette fois, c'est moi Tony qui va tester pour vous.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="p-2 ms-5  col-9 bd-highlight">
+    
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <!-- <img src="./img/articles/metro/metro-small.jpg" alt=""> -->
+        </div>
+
+        <div class="flex-grow-1 ms-3">
+          Voir les articles précédents
+      </div>
+    
+    </div>
+  </div>
+
+    <!-- <div class="img-text">
+      <img src="./img/articles/suzette/suzette-small.jpg" alt="">
+      <div class="d-flex flex-column">
+      <h3 class="h-3">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+      <p>Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Sapiente,
+        voluptatem fuga perferendis error, architecto hic vel asperiores odio 
+        cumque eaque, corrupti tempora maxime! Veritatis repellat cumque, aliquam dolorem alias fuga.</p>
+
+
+        <div class="img-text">
+          <img src="./img/articles/metro/metro-small.jpg" alt="">
+          <div class="d-flex flex-column">
+          <h3 class="h-3">Lorem ipsum.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sapiente,
+            voluptatem fuga perferendis error, architecto hic vel asperiores odio 
+            cumque eaque, corrupti tempora maxime! Veritatis repellat cumque, aliquam dolorem alias fuga.</p> -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>

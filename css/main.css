@@ -1,0 +1,89 @@
+/* @import url("../Courgette-Regular.ttf");
+@import url("../Oswald-VariableFont_wght.ttf"); */
+
+@font-face {
+    font-family: "oswald";
+    src: url("../Courgette-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "oswald";
+}
+
+/* @font-face {
+    font-family: "oswald";
+    src: url("../Oswald-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "oswald";
+} */
+
+/* .img-text {
+    display: flex;
+}
+
+.img-text img {
+    height: 20vh;
+    padding-left: 13%;
+}
+
+.img-text p {
+    padding-left: 20px;
+    padding-right: 15%;
+}
+
+
+.h-3 {
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+.img-text {
+    display: flex;
+}
+
+.img-text img {
+    height: 20vh;
+    padding-left: 13%;
+}
+
+.img-text p {
+    padding-left: 20px;
+    padding-right: 15%;
+}
+
+.h-2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.h-3 {
+    padding-left: 20px;
+} */
+
+.h-2 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+div img {
+    height: 20vh;
+}
+
+#full {
+    
+}
+
